@@ -57,7 +57,7 @@ export default function Home() {
       </Head>
 
       <header className='d-flex justify-content-center p-3 bg-dark text-white'>
-        <h3>Kredo Coding Challenge</h3>
+        <h3>Product/Category REST API App</h3>
       </header> 
       
       <main className={styles.main}>

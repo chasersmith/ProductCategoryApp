@@ -2,7 +2,7 @@ class ApiService {
     baseRoute: string;
 
     constructor() {
-        this.baseRoute = 'https://localhost:7077/api/';
+        this.baseRoute = 'http://localhost:8080/api/';
     }
 
     async getAllCategories() {

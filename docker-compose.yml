@@ -1,0 +1,18 @@
+version: '3'
+services:
+
+  kredo-challenge-api:
+    build: ./backend/KredoChallengeAppAPI
+    container_name: kredo-challenge-api
+    ports:
+      - 8080:80
+
+  kredo-challenge-ui:
+    build: ./frontend/kredo-challenge-app
+    container_name: kredo-challenge-ui
+    ports:
+      - 3000:3000
+
+
+volumes:
+  kredo-challenge-data:
