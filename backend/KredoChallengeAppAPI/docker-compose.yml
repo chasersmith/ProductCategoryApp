@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kredochallengeappapi:
+    image: ${DOCKER_REGISTRY-}kredochallengeappapi
+    build:
+      context: .
+      dockerfile: KredoChallengeAppAPI/Dockerfile
